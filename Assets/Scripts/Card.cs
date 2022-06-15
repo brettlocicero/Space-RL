@@ -14,6 +14,8 @@ public class Card : ScriptableObject
     public bool targetEnemies;
     public bool targetFriendlies;
     public bool AOE;
+    public bool stun;
+    public int stunTurns;
     public int damage;
     public int drawCards;
 

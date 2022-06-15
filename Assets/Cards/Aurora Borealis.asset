@@ -19,6 +19,8 @@ MonoBehaviour:
   targetEnemies: 1
   targetFriendlies: 0
   AOE: 1
+  stun: 1
+  stunTurns: 0
   damage: 6
   drawCards: 0
   gameFX: {fileID: 8062236030214552588, guid: 80d25ca61387936409467ea8197bf988, type: 3}

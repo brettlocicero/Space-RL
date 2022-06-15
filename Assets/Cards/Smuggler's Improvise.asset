@@ -19,9 +19,12 @@ MonoBehaviour:
   targetEnemies: 1
   targetFriendlies: 0
   AOE: 0
+  stun: 0
+  stunTurns: 0
   damage: 4
   drawCards: 1
   gameFX: {fileID: 5045160122310164152, guid: 70b85ae1a66041445b890366f45eaa5f, type: 3}
+  useMeanPos: 0
   animLength: 1.5
   fxZRotationRange: {x: -25, y: -165}
   shakeCamAmt: 0.5

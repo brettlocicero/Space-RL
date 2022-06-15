@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using System.Linq;
 
 public class Enemy : MonoBehaviour
 {
@@ -63,6 +64,8 @@ public class Enemy : MonoBehaviour
     void OnMouseExit () 
     {
         colObj.SetActive(false);
+
+        // disable all enemies in game
         foreach (GameObject e in GameController.instance.enemies) 
         {
             if (e) e.GetComponent<Enemy>().colObj.SetActive(false);
@@ -83,9 +86,14 @@ public class Enemy : MonoBehaviour
     }
 
     public void DecideNextAction () 
+    {        
+        // subtract 1 as last index must always be reserved for stun
+        currentAction = actions[Random.Range(0, actions.Length - 1)];
+        SetNextAction();
+    }
+
+    void SetNextAction () 
     {
-        print(actions.Length);
-        currentAction = actions[Random.Range(0, actions.Length)];
         actionIcon.sprite = currentAction.icon;
 
         damageText.gameObject.SetActive(currentAction.dealsDamage);
@@ -104,6 +112,12 @@ public class Enemy : MonoBehaviour
         }
 
         actionObj.SetActive(true);
+    }
+
+    public void Stun () 
+    {
+        currentAction = actions.Last();
+        SetNextAction();
     }
 }
 

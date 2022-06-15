@@ -67,6 +67,12 @@ public class PlayableCard : MonoBehaviour
                     var obj = Instantiate(cd.card.gameFX, Vector3.zero, cd.card.gameFX.transform.rotation); 
                     Destroy(obj.gameObject, cd.card.animLength);
                 }
+
+                if (cd.card.stun) 
+                {
+                    foreach (GameObject e in gc.enemies) 
+                        if (e) e.GetComponent<Enemy>().Stun();
+                }
             }
 
             else 
@@ -75,6 +81,11 @@ public class PlayableCard : MonoBehaviour
                 Vector3 rot = new Vector3(0f, 0f, Random.Range(cd.card.fxZRotationRange.x, cd.card.fxZRotationRange.y));
                 var obj = Instantiate(cd.card.gameFX, hit.transform.position, Quaternion.Euler(rot)); 
                 Destroy(obj.gameObject, cd.card.animLength);
+
+                if (cd.card.stun) 
+                {
+                    hit.GetComponent<Enemy>().Stun();
+                }
             }
 
             playedCard = true;
