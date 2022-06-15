@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4d74ded4eb9f24aa9eaecbd5fed0ce, type: 3}
+  m_Name: Nanobiotic Enhancement
+  m_EditorClassIdentifier: 
+  cardName: Nanobiotic Enhancement
+  pic: {fileID: 21300000, guid: 9f17854274cfd3c4e9e972c242ebf0b1, type: 3}
+  desc: Reduce all energy costs by 1 for the rest of combat.
+  cost: 1
+  targetEnemies: 0
+  targetFriendlies: 1
+  AOE: 0
+  damage: 0
+  gameFX: {fileID: 5045160122310164152, guid: 70b85ae1a66041445b890366f45eaa5f, type: 3}
+  animLength: 1.5
+  fxZRotationRange: {x: -25, y: -165}
+  shakeCamAmt: 0.5
+  shakeCamTime: 1
+  shakePriority: 85

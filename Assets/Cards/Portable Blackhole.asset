@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f4d74ded4eb9f24aa9eaecbd5fed0ce, type: 3}
+  m_Name: Portable Blackhole
+  m_EditorClassIdentifier: 
+  cardName: Portable Blackhole
+  pic: {fileID: 21300000, guid: de6e19f6c9b43c64680aee1852c27376, type: 3}
+  desc: Deals <color=red>DMG</color> damage to all enemies and stuns all units
+  cost: 2
+  targetEnemies: 1
+  targetFriendlies: 0
+  AOE: 1
+  damage: 5
+  drawCards: 0
+  gameFX: {fileID: 7030113129947944051, guid: d4e3f382987c9dc4c84bffe57ffcbe39, type: 3}
+  useMeanPos: 1
+  animLength: 4
+  fxZRotationRange: {x: -25, y: -165}
+  shakeCamAmt: 0.75
+  shakeCamTime: 3
+  shakePriority: 90
