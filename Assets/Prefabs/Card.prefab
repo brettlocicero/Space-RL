@@ -676,6 +676,7 @@ MonoBehaviour:
   playableOutline: {fileID: 3179604632828347870}
   normalScale: 1
   hoverScale: 1.15
+  hoverSound: {fileID: 8300000, guid: 5005c447f3c516a47bc84d6c84b4be3c, type: 3}
   assignedPos: {x: 0, y: 0, z: 0}
 --- !u!114 &-1316269585199777048
 MonoBehaviour:

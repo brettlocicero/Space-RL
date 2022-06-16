@@ -16,6 +16,7 @@ public class CardDisplay : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     [Header("")]
     [SerializeField] float normalScale = 1f;
     [SerializeField] float hoverScale = 1.15f;
+    [SerializeField] AudioClip hoverSound;
     
     public Vector3 assignedPos;
     Vector3 targetPos;
@@ -63,6 +64,7 @@ public class CardDisplay : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             targetScale = new Vector3(hoverScale, hoverScale, 1f);
             targetPos = new Vector3(assignedPos.x, assignedPos.y + 0.5f, assignedPos.z);
+            SoundManager.instance.PlaySound(hoverSound, 0.1f, 2f);
         }
 
         siblingIndex = transform.GetSiblingIndex();
