@@ -255,4 +255,4 @@ MonoBehaviour:
   itemQuantityText: {fileID: 2469736554249009067}
   itemImage: {fileID: 2469736555940808203}
   invenItem: {fileID: 0}
-  itemAmt: 0
+  itemAmt: 1
