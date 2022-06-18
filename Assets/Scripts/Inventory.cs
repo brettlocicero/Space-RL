@@ -5,10 +5,13 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     [SerializeField] Animator inven;
+    [SerializeField] Transform invenItemsParent;
     bool open;
     [SerializeField] InventoryItem[] allItems;
+    [SerializeField] ItemDisplay baseItemDisplay;
 
-    [SerializeField] Dictionary<InventoryItem, int> items = new Dictionary<InventoryItem, int>();
+    [SerializeField] List<ItemDisplay> items;
+    HashSet<InventoryItem> seenItems = new HashSet<InventoryItem>();
 
     void Start () 
     {
@@ -47,16 +50,27 @@ public class Inventory : MonoBehaviour
 
     void AddItemToInventory (InventoryItem item) 
     {
-        if (items.ContainsKey(item)) 
+        if (seenItems.Contains(item)) 
         {
-            items[item] += 1;
+            foreach (ItemDisplay i in items) 
+            {
+                if (i.invenItem == item) 
+                {
+                    i.itemAmt += 1;
+                    break;
+                }
+            }
         }
 
         else 
         {
-            items[item] = 1;
-        }
+            Transform itemD = Instantiate(baseItemDisplay.transform, Vector3.zero, Quaternion.identity);
+            itemD.transform.SetParent(invenItemsParent);
+            itemD.localScale = Vector3.one;
 
-        print(items);
+            seenItems.Add(item);
+            items.Add(itemD.GetComponent<ItemDisplay>());
+            itemD.GetComponent<ItemDisplay>().UpdateItemDisplay(item);
+        }
     }
 }
