@@ -5,19 +5,34 @@ using UnityEngine.UI;
 
 public class PlanetRandomizer : MonoBehaviour
 {
-    [SerializeField] string planetName;
-    [SerializeField] string planetType;
-    [SerializeField] string galaxy;
+    public static PlanetRandomizer instance;
 
-    [Header("")]
+    [SerializeField] string planetName;
+    [SerializeField] PlanetType planetType;
+    [SerializeField] string galaxy;
+    [SerializeField] SpriteRenderer sky;
+    [SerializeField] ParticleSystemRenderer[] clouds;
+
+    [Header("Picked Colors")]
+    public Color lowerSkyColor;
+    public Color upperSkyColor;
+    public Color groundColor;
+    public Color mainLSColor;
+    public Color trimLSColor;
+    public Color floraColor;
+    public Color backgroundColor;
+
+    [Header("Settings")]
+    [SerializeField] PlanetType[] possiblePlanetTypes;
     [SerializeField] string[] possibleGalaxies;
-    [SerializeField] string[] possiblePlanetTypes;
     [SerializeField] string[] possiblePlanetNameChunks;
     
-    [Header("")]
+    [Header("UI")]
     [SerializeField] Text planetNameText;
     [SerializeField] Text galaxyText;
     [SerializeField] Text planetTypeText;
+
+    void Awake () => instance = this;
 
     void Start()
     {
@@ -26,8 +41,10 @@ public class PlanetRandomizer : MonoBehaviour
         galaxy = GenerateGalaxy();
 
         planetNameText.text = planetName;
-        galaxyText.text = galaxy + "-" + Random.Range(50, 1000) + " galaxy";
-        planetTypeText.text = planetType + " planet";
+        galaxyText.text = galaxy;
+        planetTypeText.text = planetType.typeName + " planet";
+
+        SetPlanet();
     }
 
     string GeneratePlanetName () 
@@ -48,13 +65,51 @@ public class PlanetRandomizer : MonoBehaviour
         return planetName;
     }
 
-    string GeneratePlanetType () 
+    PlanetType GeneratePlanetType () 
     {
         return possiblePlanetTypes[Random.Range(0, possiblePlanetTypes.Length)];
     }
 
     string GenerateGalaxy () 
     {
-        return possibleGalaxies[Random.Range(0, possibleGalaxies.Length)];
+        return possibleGalaxies[Random.Range(0, possibleGalaxies.Length)] + "-" + Random.Range(50, 1000) + " galaxy";
     }
+
+    void SetPlanet () 
+    {
+        //Color randColor = gradient.Evaluate (Random.Range (0f, 1f));
+        lowerSkyColor = planetType.lowerSkyColor.Evaluate(Random.Range(0f, 1f));
+        upperSkyColor = planetType.upperSkyColor.Evaluate(Random.Range(0f, 1f));
+
+        groundColor = planetType.groundColor.Evaluate(Random.Range(0f, 1f));
+        mainLSColor = new Color(groundColor.r - 0.025f, groundColor.g - 0.025f, groundColor.b - 0.025f);
+        trimLSColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.05f, groundColor.b - 0.05f);
+        floraColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.025f, groundColor.b - 0.025f);
+        backgroundColor = new Color(groundColor.r * 0.05f, groundColor.g * 0.05f, groundColor.b * 0.05f);
+
+        sky.material.SetColor("_Top_Color", upperSkyColor);
+        sky.material.SetColor("_Bottom_Color", lowerSkyColor);
+        
+        foreach(ParticleSystemRenderer cloud in clouds) 
+        {
+            cloud.material.SetColor("_BaseColor", new Color(mainLSColor.r * 2f, mainLSColor.g * 2f, mainLSColor.b * 2f));
+        }
+    }
+}
+
+[System.Serializable]
+public struct PlanetType 
+{
+    public string typeName;
+    
+    [Header("Sky")]
+    public Gradient lowerSkyColor;
+    public Gradient upperSkyColor;
+
+    [Header("Landscape")]
+    public Gradient groundColor;
+    public Gradient mainLSColor;
+    public Gradient trimLSColor;
+    public Gradient floraColor;
+    public Gradient backgroundColor;
 }

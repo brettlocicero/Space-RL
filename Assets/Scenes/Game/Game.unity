@@ -12638,8 +12638,430 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   planetName: 
-  planetType: 
+  planetType:
+    typeName: 
+    lowerSkyColor:
+      serializedVersion: 2
+      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    upperSkyColor:
+      serializedVersion: 2
+      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    groundColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    mainLSColor:
+      serializedVersion: 2
+      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    trimLSColor:
+      serializedVersion: 2
+      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    floraColor:
+      serializedVersion: 2
+      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    backgroundColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
   galaxy: 
+  sky: {fileID: 1679765802}
+  clouds:
+  - {fileID: 2044239707183213107}
+  - {fileID: 2044239706284539569}
+  - {fileID: 2044239705884116366}
+  - {fileID: 2044239707639541810}
+  lowerSkyColor: {r: 0, g: 0, b: 0, a: 0}
+  upperSkyColor: {r: 0, g: 0, b: 0, a: 0}
+  groundColor: {r: 0, g: 0, b: 0, a: 0}
+  mainLSColor: {r: 0, g: 0, b: 0, a: 0}
+  trimLSColor: {r: 0, g: 0, b: 0, a: 0}
+  floraColor: {r: 0, g: 0, b: 0, a: 0}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  possiblePlanetTypes:
+  - typeName: Rogue
+    lowerSkyColor:
+      serializedVersion: 2
+      key0: {r: 0.4117647, g: 0.02745098, b: 0.22352941, a: 1}
+      key1: {r: 0.16006587, g: 0.16528548, b: 0.31132078, a: 1}
+      key2: {r: 0.25698647, g: 0.3301887, b: 0.25769317, a: 0.42352942}
+      key3: {r: 0.6037736, g: 0.2618963, b: 0.05980776, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 18119
+      ctime2: 47224
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    upperSkyColor:
+      serializedVersion: 2
+      key0: {r: 0.09019608, g: 0.0627451, b: 0.14117648, a: 1}
+      key1: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
+      key2: {r: 0.06572621, g: 0.06582091, b: 0.066037714, a: 0.42352942}
+      key3: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 22166
+      ctime2: 41441
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    groundColor:
+      serializedVersion: 2
+      key0: {r: 0.29803923, g: 0.12941177, b: 0.19215687, a: 1}
+      key1: {r: 0.08170165, g: 0.11320752, b: 0.11174213, a: 1}
+      key2: {r: 0.2735849, g: 0.23099858, b: 0.23099858, a: 0}
+      key3: {r: 0.07450981, g: 0.09345544, b: 0.16470589, a: 0}
+      key4: {r: 0.07450981, g: 0.09345544, b: 0.16470589, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 22937
+      ctime2: 43754
+      ctime3: 65342
+      ctime4: 65342
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 4
+      m_NumAlphaKeys: 2
+    mainLSColor:
+      serializedVersion: 2
+      key0: {r: 0.21176471, g: 0.09411765, b: 0.13725491, a: 1}
+      key1: {r: 0.007843141, g: 0.04793908, b: 0.1882353, a: 1}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    trimLSColor:
+      serializedVersion: 2
+      key0: {r: 0.14899999, g: 0.06622222, b: 0.09657408, a: 1}
+      key1: {r: 0.050902687, g: 0, b: 0.18039216, a: 1}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65342
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    floraColor:
+      serializedVersion: 2
+      key0: {r: 0.18867922, g: 0.12548949, b: 0.14729613, a: 1}
+      key1: {r: 0.18163773, g: 0.1254902, b: 0.2627451, a: 1}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    backgroundColor:
+      serializedVersion: 2
+      key0: {r: 0.092, g: 0.041157898, b: 0.060526315, a: 1}
+      key1: {r: 0.113000005, g: 0.033594597, b: 0, a: 1}
+      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
   possibleGalaxies:
   - Andromeda
   - Black Eye
@@ -12649,13 +13071,6 @@ MonoBehaviour:
   - Aegialeus
   - Zagreus
   - Eubuleus
-  possiblePlanetTypes:
-  - Rogue
-  - Dune
-  - Terrestrial
-  - Mountainous
-  - Toxic
-  - Frozen
   possiblePlanetNameChunks:
   - na
   - po
@@ -36186,7 +36601,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044239706473324571}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1800003, y: -1.09, z: 0}
+  m_LocalPosition: {x: -1.1800008, y: -1.09, z: 0}
   m_LocalScale: {x: 1.5301, y: 3.1496, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36533,7 +36948,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2044239706616263099
 Transform:
   m_ObjectHideFlags: 0
@@ -36633,7 +37048,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &2044239706732200518
 GameObject:
   m_ObjectHideFlags: 0
@@ -36677,7 +37092,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044239706771233251}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.95999956, y: 0.16000003, z: 0}
+  m_LocalPosition: {x: 0.9599998, y: 0.16000004, z: 0}
   m_LocalScale: {x: 1.1825767, y: 1.8118, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36865,7 +37280,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044239706854360049}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.370499, y: -2.7592, z: -0.08803196}
+  m_LocalPosition: {x: 6.3704987, y: -2.7592, z: -0.08803196}
   m_LocalScale: {x: 1.605, y: 2.3821, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42589,7 +43004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044239707208905517}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.95999956, y: 0.16000003, z: 0}
+  m_LocalPosition: {x: 0.9599999, y: 0.16000003, z: 0}
   m_LocalScale: {x: 1.1825767, y: 1.8118, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -42900,7 +43315,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43108,7 +43523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044239707533528065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.95999956, y: 0.16000003, z: 0}
+  m_LocalPosition: {x: 0.95999956, y: 0.16000004, z: 0}
   m_LocalScale: {x: 1.1825767, y: 1.8118, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49005,6 +49420,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSpawnPos: {fileID: 6616956426106975397}
+  grounds:
+  - {fileID: 2044239707735774217}
+  - {fileID: 2044239706473186556}
+  - {fileID: 2044239706117878531}
+  - {fileID: 2044239706447339873}
+  - {fileID: 2044239706366783128}
+  - {fileID: 2044239706483735541}
+  - {fileID: 2044239707486195243}
+  - {fileID: 2044239707983137569}
+  mainLS:
+  - {fileID: 2044239706333335414}
+  - {fileID: 2044239707637904993}
+  - {fileID: 2044239706900917899}
+  - {fileID: 2044239706876194745}
+  - {fileID: 2044239707457036903}
+  - {fileID: 2044239707487920722}
+  - {fileID: 2044239706434105373}
+  - {fileID: 2044239705874427543}
+  - {fileID: 2044239707554462892}
+  - {fileID: 2044239707426160816}
+  trimLS:
+  - {fileID: 2044239706854360048}
+  - {fileID: 2044239707201183113}
+  - {fileID: 2044239706924127659}
+  - {fileID: 2044239707208905516}
+  - {fileID: 2044239705902461694}
+  - {fileID: 2044239706394501100}
+  - {fileID: 2044239706473324573}
+  - {fileID: 2044239706341922145}
+  - {fileID: 2044239706771233253}
+  - {fileID: 2044239706434105373}
+  - {fileID: 2044239706107274885}
+  - {fileID: 2044239707533528067}
+  - {fileID: 2044239706876194745}
+  - {fileID: 2044239707426160816}
+  flora:
+  - {fileID: 2044239706493062187}
+  - {fileID: 2044239706437801529}
+  - {fileID: 2044239707339605162}
+  background:
+  - {fileID: 2044239707813049203}
+  - {fileID: 2044239707696306994}
+  - {fileID: 2044239706890381509}
+  - {fileID: 2044239707957740455}
 --- !u!1 &3336318253803440383
 GameObject:
   m_ObjectHideFlags: 0
