@@ -11,7 +11,6 @@ public class PlanetRandomizer : MonoBehaviour
     [SerializeField] PlanetType planetType;
     [SerializeField] string galaxy;
     [SerializeField] SpriteRenderer sky;
-    [SerializeField] ParticleSystemRenderer[] clouds;
 
     [Header("Picked Colors")]
     public Color lowerSkyColor;
@@ -75,13 +74,14 @@ public class PlanetRandomizer : MonoBehaviour
         return possibleGalaxies[Random.Range(0, possibleGalaxies.Length)] + "-" + Random.Range(50, 1000) + " galaxy";
     }
 
-    void SetPlanet () 
+    public void SetPlanet () 
     {
         //Color randColor = gradient.Evaluate (Random.Range (0f, 1f));
         lowerSkyColor = planetType.lowerSkyColor.Evaluate(Random.Range(0f, 1f));
         upperSkyColor = planetType.upperSkyColor.Evaluate(Random.Range(0f, 1f));
 
-        groundColor = planetType.groundColor.Evaluate(Random.Range(0f, 1f));
+        groundColor = planetType.schemeColor.Evaluate(Random.Range(0f, 1f));
+
         mainLSColor = new Color(groundColor.r - 0.025f, groundColor.g - 0.025f, groundColor.b - 0.025f);
         trimLSColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.05f, groundColor.b - 0.05f);
         floraColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.025f, groundColor.b - 0.025f);
@@ -89,11 +89,6 @@ public class PlanetRandomizer : MonoBehaviour
 
         sky.material.SetColor("_Top_Color", upperSkyColor);
         sky.material.SetColor("_Bottom_Color", lowerSkyColor);
-        
-        foreach(ParticleSystemRenderer cloud in clouds) 
-        {
-            cloud.material.SetColor("_BaseColor", new Color(mainLSColor.r * 2f, mainLSColor.g * 2f, mainLSColor.b * 2f));
-        }
     }
 }
 
@@ -107,9 +102,5 @@ public struct PlanetType
     public Gradient upperSkyColor;
 
     [Header("Landscape")]
-    public Gradient groundColor;
-    public Gradient mainLSColor;
-    public Gradient trimLSColor;
-    public Gradient floraColor;
-    public Gradient backgroundColor;
+    public Gradient schemeColor;
 }

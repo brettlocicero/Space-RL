@@ -12698,123 +12698,7 @@ MonoBehaviour:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    groundColor:
-      serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 1}
-      key2: {r: 0, g: 0, b: 0, a: 0}
-      key3: {r: 0, g: 0, b: 0, a: 0}
-      key4: {r: 0, g: 0, b: 0, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    mainLSColor:
-      serializedVersion: 2
-      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    trimLSColor:
-      serializedVersion: 2
-      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    floraColor:
-      serializedVersion: 2
-      key0: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key1: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    backgroundColor:
+    schemeColor:
       serializedVersion: 2
       key0: {r: 1, g: 1, b: 1, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
@@ -12845,11 +12729,6 @@ MonoBehaviour:
       m_NumAlphaKeys: 2
   galaxy: 
   sky: {fileID: 1679765802}
-  clouds:
-  - {fileID: 2044239707183213107}
-  - {fileID: 2044239706284539569}
-  - {fileID: 2044239705884116366}
-  - {fileID: 2044239707639541810}
   lowerSkyColor: {r: 0, g: 0, b: 0, a: 0}
   upperSkyColor: {r: 0, g: 0, b: 0, a: 0}
   groundColor: {r: 0, g: 0, b: 0, a: 0}
@@ -12891,18 +12770,18 @@ MonoBehaviour:
     upperSkyColor:
       serializedVersion: 2
       key0: {r: 0.09019608, g: 0.0627451, b: 0.14117648, a: 1}
-      key1: {r: 0.14150941, g: 0.14150941, b: 0.14150941, a: 1}
-      key2: {r: 0.06572621, g: 0.06582091, b: 0.066037714, a: 0.42352942}
-      key3: {r: 0.09433961, g: 0.09433961, b: 0.09433961, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key1: {r: 0.09291563, g: 0.2264151, b: 0.13327621, a: 1}
+      key2: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 0.42352942}
+      key3: {r: 0.2784314, g: 0.10196079, b: 0.21568629, a: 0.42352942}
+      key4: {r: 0.2784314, g: 0.10196079, b: 0.21568629, a: 0.42352942}
       key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
       key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
       key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
       ctime0: 0
-      ctime1: 22166
-      ctime2: 41441
+      ctime1: 20239
+      ctime2: 47031
       ctime3: 65535
-      ctime4: 0
+      ctime4: 65535
       ctime5: 0
       ctime6: 0
       ctime7: 0
@@ -12917,51 +12796,22 @@ MonoBehaviour:
       m_Mode: 0
       m_NumColorKeys: 4
       m_NumAlphaKeys: 2
-    groundColor:
+    schemeColor:
       serializedVersion: 2
-      key0: {r: 0.29803923, g: 0.12941177, b: 0.19215687, a: 1}
-      key1: {r: 0.08170165, g: 0.11320752, b: 0.11174213, a: 1}
-      key2: {r: 0.2735849, g: 0.23099858, b: 0.23099858, a: 0}
-      key3: {r: 0.07450981, g: 0.09345544, b: 0.16470589, a: 0}
-      key4: {r: 0.07450981, g: 0.09345544, b: 0.16470589, a: 0}
-      key5: {r: 0, g: 0, b: 0, a: 0}
-      key6: {r: 0, g: 0, b: 0, a: 0}
-      key7: {r: 0, g: 0, b: 0, a: 0}
-      ctime0: 0
-      ctime1: 22937
-      ctime2: 43754
-      ctime3: 65342
-      ctime4: 65342
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 4
-      m_NumAlphaKeys: 2
-    mainLSColor:
-      serializedVersion: 2
-      key0: {r: 0.21176471, g: 0.09411765, b: 0.13725491, a: 1}
-      key1: {r: 0.007843141, g: 0.04793908, b: 0.1882353, a: 1}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
+      key0: {r: 0.09019608, g: 0.0627451, b: 0.14117648, a: 1}
+      key1: {r: 0.12941177, g: 0.16078432, b: 0.13725491, a: 1}
+      key2: {r: 0.1504347, g: 0.14909825, b: 0.115839444, a: 0.42352942}
+      key3: {r: 0.14899999, g: 0.10312368, b: 0.07926799, a: 0.42352942}
+      key4: {r: 0.199, g: 0.072873235, b: 0.15415493, a: 0.42352942}
+      key5: {r: 0.2784314, g: 0.10196079, b: 0.21568629, a: 0.42352942}
       key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
       key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
       ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
+      ctime1: 22745
+      ctime2: 32768
+      ctime3: 46453
+      ctime4: 65535
+      ctime5: 65535
       ctime6: 0
       ctime7: 0
       atime0: 0
@@ -12973,94 +12823,7 @@ MonoBehaviour:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    trimLSColor:
-      serializedVersion: 2
-      key0: {r: 0.14899999, g: 0.06622222, b: 0.09657408, a: 1}
-      key1: {r: 0.050902687, g: 0, b: 0.18039216, a: 1}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65342
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    floraColor:
-      serializedVersion: 2
-      key0: {r: 0.18867922, g: 0.12548949, b: 0.14729613, a: 1}
-      key1: {r: 0.18163773, g: 0.1254902, b: 0.2627451, a: 1}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
-      m_NumAlphaKeys: 2
-    backgroundColor:
-      serializedVersion: 2
-      key0: {r: 0.092, g: 0.041157898, b: 0.060526315, a: 1}
-      key1: {r: 0.113000005, g: 0.033594597, b: 0, a: 1}
-      key2: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key3: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key4: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key5: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key6: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      key7: {r: 0.4, g: 0, b: 0.13725491, a: 0.42352942}
-      ctime0: 0
-      ctime1: 65535
-      ctime2: 0
-      ctime3: 0
-      ctime4: 0
-      ctime5: 0
-      ctime6: 0
-      ctime7: 0
-      atime0: 0
-      atime1: 65535
-      atime2: 0
-      atime3: 0
-      atime4: 0
-      atime5: 0
-      atime6: 0
-      atime7: 0
-      m_Mode: 0
-      m_NumColorKeys: 2
+      m_NumColorKeys: 5
       m_NumAlphaKeys: 2
   possibleGalaxies:
   - Andromeda
@@ -37665,7 +37428,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: a58edab9d07a421459ea729634e250b8, type: 3}
-  m_Color: {r: 0.12009253, g: 0.107727006, b: 0.241, a: 0.34117648}
+  m_Color: {r: 0.12009253, g: 0.107727006, b: 0.241, a: 0.5019608}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -37872,7 +37635,7 @@ GameObject:
   - component: {fileID: 2044239707077731322}
   - component: {fileID: 2044239707077731323}
   m_Layer: 0
-  m_Name: Gradient (1)
+  m_Name: black fog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49430,40 +49193,54 @@ MonoBehaviour:
   - {fileID: 2044239707486195243}
   - {fileID: 2044239707983137569}
   mainLS:
+  - {fileID: 2044239707201183113}
   - {fileID: 2044239706333335414}
   - {fileID: 2044239707637904993}
   - {fileID: 2044239706900917899}
   - {fileID: 2044239706876194745}
   - {fileID: 2044239707457036903}
+  - {fileID: 2044239706341922145}
   - {fileID: 2044239707487920722}
   - {fileID: 2044239706434105373}
-  - {fileID: 2044239705874427543}
-  - {fileID: 2044239707554462892}
+  - {fileID: 2044239707261385621}
   - {fileID: 2044239707426160816}
+  - {fileID: 2044239705874427543}
   trimLS:
   - {fileID: 2044239706854360048}
-  - {fileID: 2044239707201183113}
   - {fileID: 2044239706924127659}
   - {fileID: 2044239707208905516}
   - {fileID: 2044239705902461694}
   - {fileID: 2044239706394501100}
+  - {fileID: 2044239707012656740}
   - {fileID: 2044239706473324573}
-  - {fileID: 2044239706341922145}
   - {fileID: 2044239706771233253}
-  - {fileID: 2044239706434105373}
+  - {fileID: 2044239707818467816}
   - {fileID: 2044239706107274885}
   - {fileID: 2044239707533528067}
-  - {fileID: 2044239706876194745}
-  - {fileID: 2044239707426160816}
+  - {fileID: 2044239706078970245}
+  - {fileID: 2044239707554462892}
   flora:
   - {fileID: 2044239706493062187}
   - {fileID: 2044239706437801529}
   - {fileID: 2044239707339605162}
+  coloredFlora:
+  - {fileID: 2044239706221205143}
+  - {fileID: 2044239707084983990}
+  - {fileID: 2044239708015153848}
   background:
   - {fileID: 2044239707813049203}
   - {fileID: 2044239707696306994}
   - {fileID: 2044239706890381509}
   - {fileID: 2044239707957740455}
+  clouds:
+  - {fileID: 2044239707183213107}
+  - {fileID: 2044239706284539569}
+  - {fileID: 2044239705884116366}
+  - {fileID: 2044239707639541810}
+  fogs:
+  - {fileID: 2044239706984056260}
+  - {fileID: 2044239707876891174}
+  - {fileID: 2044239705936423188}
 --- !u!1 &3336318253803440383
 GameObject:
   m_ObjectHideFlags: 0
