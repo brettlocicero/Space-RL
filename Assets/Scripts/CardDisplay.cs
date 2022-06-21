@@ -64,7 +64,7 @@ public class CardDisplay : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         {
             targetScale = new Vector3(hoverScale, hoverScale, 1f);
             targetPos = new Vector3(assignedPos.x, assignedPos.y + 0.5f, assignedPos.z);
-            SoundManager.instance.PlaySound(hoverSound, 0.1f, 2f);
+            SoundManager.instance.PlaySound(hoverSound, 0.1f, 1f);
         }
 
         siblingIndex = transform.GetSiblingIndex();
