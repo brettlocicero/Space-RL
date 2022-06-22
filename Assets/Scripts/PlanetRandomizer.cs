@@ -8,11 +8,12 @@ public class PlanetRandomizer : MonoBehaviour
     public static PlanetRandomizer instance;
 
     [SerializeField] string planetName;
-    [SerializeField] PlanetType planetType;
+    [SerializeField] string planetTypeName;
+    PlanetType planetType;
     [SerializeField] string galaxy;
     [SerializeField] SpriteRenderer sky;
 
-    [Header("Picked Colors")]
+    [Header("Planet Characteristics")]
     public Color lowerSkyColor;
     public Color upperSkyColor;
     public Color groundColor;
@@ -20,6 +21,8 @@ public class PlanetRandomizer : MonoBehaviour
     public Color trimLSColor;
     public Color floraColor;
     public Color backgroundColor;
+    public bool raining;
+    public bool lightning;
 
     [Header("Settings")]
     [SerializeField] PlanetType[] possiblePlanetTypes;
@@ -31,17 +34,35 @@ public class PlanetRandomizer : MonoBehaviour
     [SerializeField] Text galaxyText;
     [SerializeField] Text planetTypeText;
 
+    [Header("Other References")]
+    [SerializeField] GameObject rainObj;
+    [SerializeField] GameObject lightningObj;
+
     void Awake () => instance = this;
 
     void Start()
     {
+        Generate();
+    }
+
+    void Generate () 
+    {
         planetName = GeneratePlanetName();
         planetType = GeneratePlanetType();
+        planetTypeName = planetType.typeName;
         galaxy = GenerateGalaxy();
 
         planetNameText.text = planetName;
         galaxyText.text = galaxy;
         planetTypeText.text = planetType.typeName + " planet";
+
+        // 0 = not raining, 1 = raining
+        raining = Random.Range(0, 2) == 1;
+        rainObj.SetActive(raining);
+
+        // 0 = not lightning, 1 = lightning
+        lightning = Random.Range(0, 2) == 1;
+        lightningObj.SetActive(lightning);
 
         SetPlanet();
     }
