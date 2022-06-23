@@ -14,6 +14,10 @@ public class Deck : MonoBehaviour
     [SerializeField] Transform handUI;
     [SerializeField] Text deckText;
 
+    [Header("Deck List Feedback")]
+    [SerializeField] GameObject deckList;
+    [SerializeField] DeckListItem[] deckListItems;
+
     GameController gc;
 
     void Awake () 
@@ -38,6 +42,12 @@ public class Deck : MonoBehaviour
             deck[i] = deck[r];
             deck[r] = tmp;
         }
+
+        for (int i = 0; i < count; i++) 
+        {
+            deckListItems[i].gameObject.SetActive(true);
+            deckListItems[i].UpdateSelf(deck[i]);
+        }
     }
 
     void UpdateDeckText () => deckText.text = deck.Count.ToString();
@@ -56,6 +66,16 @@ public class Deck : MonoBehaviour
         deck.RemoveAt(0);
         UpdateDeckText();
         AddCardToHand(drawn);
+
+        // first active GameObject is the next card to deactivate
+        foreach (DeckListItem dli in deckListItems) 
+        {
+            if (dli.gameObject.activeSelf) 
+            {
+                dli.gameObject.SetActive(false);
+                break;
+            }
+        }
     }
     
     public void AddCardToHand (Card c) 
@@ -88,5 +108,10 @@ public class Deck : MonoBehaviour
         foreach (Transform t in hand) Destroy(t.gameObject);
 
         hand.Clear();
+    }
+
+    public void DeckListToggle () 
+    {
+        deckList.SetActive(!deckList.activeSelf);
     }
 }
