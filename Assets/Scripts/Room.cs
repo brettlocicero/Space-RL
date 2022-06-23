@@ -44,7 +44,7 @@ public class Room : MonoBehaviour
 
         foreach (ParticleSystemRenderer cloud in clouds) 
         {
-            cloud.material.SetColor("_BaseColor", new Color(pr.upperSkyColor.r * 1.5f, pr.upperSkyColor.g * 1.5f, pr.upperSkyColor.b * 1.5f));
+            cloud.material.SetColor("_BaseColor", pr.cloudsColor);
         }
 
         foreach (SpriteRenderer sr in fogs) 

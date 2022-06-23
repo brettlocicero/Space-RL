@@ -21,6 +21,7 @@ public class PlanetRandomizer : MonoBehaviour
     public Color trimLSColor;
     public Color floraColor;
     public Color backgroundColor;
+    public Color cloudsColor;
     public bool raining;
     public bool lightning;
 
@@ -37,6 +38,7 @@ public class PlanetRandomizer : MonoBehaviour
     [Header("Other References")]
     [SerializeField] GameObject rainObj;
     [SerializeField] GameObject lightningObj;
+    [SerializeField] UpdateMapPanelUI mapPanel;
 
     void Awake () => instance = this;
 
@@ -65,6 +67,7 @@ public class PlanetRandomizer : MonoBehaviour
         lightningObj.SetActive(lightning);
 
         SetPlanet();
+        mapPanel.UpdatePanel(this);
     }
 
     string GeneratePlanetName () 
@@ -107,6 +110,7 @@ public class PlanetRandomizer : MonoBehaviour
         trimLSColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.05f, groundColor.b - 0.05f);
         floraColor = new Color(groundColor.r - 0.05f, groundColor.g - 0.025f, groundColor.b - 0.025f);
         backgroundColor = new Color(groundColor.r * 0.05f, groundColor.g * 0.05f, groundColor.b * 0.05f);
+        cloudsColor = new Color(upperSkyColor.r * 1.5f, upperSkyColor.g * 1.5f, upperSkyColor.b * 1.5f);
 
         sky.material.SetColor("_Top_Color", upperSkyColor);
         sky.material.SetColor("_Bottom_Color", lowerSkyColor);
@@ -121,6 +125,7 @@ public struct PlanetType
     [Header("Sky")]
     public Gradient lowerSkyColor;
     public Gradient upperSkyColor;
+    public Gradient lightningColor;
 
     [Header("Landscape")]
     public Gradient schemeColor;
