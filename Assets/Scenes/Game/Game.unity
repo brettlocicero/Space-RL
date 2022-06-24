@@ -15317,23 +15317,24 @@ MonoBehaviour:
   - Zagreus
   - Eubuleus
   possiblePlanetNameChunks:
-  - na
-  - po
-  - loa
-  - rap
-  - tin
-  - ya
-  - zi
-  - uh
-  - wil
-  - mat
-  - xi
-  - bin
-  - op
-  - hun
-  - ra
+  - an
+  - sir
+  - oce
+  - ach
+  - aoe
+  - gis
+  - anu
+  - for
+  - una
+  - ces
+  - hyp
+  - eto
+  - ori
+  - plu
+  - sat
   - to
-  - ton
+  - zeph
+  - seu
   planetNameText: {fileID: 613951189}
   galaxyText: {fileID: 950820549}
   planetTypeText: {fileID: 1265444047}

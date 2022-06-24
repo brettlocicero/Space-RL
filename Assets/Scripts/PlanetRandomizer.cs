@@ -73,7 +73,7 @@ public class PlanetRandomizer : MonoBehaviour
     string GeneratePlanetName () 
     {
         string planetName = "";
-        int chunkAmounts = Random.Range(2, 6);
+        int chunkAmounts = Random.Range(2, 4);
 
         for (int i = 0; i < chunkAmounts; i++) 
         {
